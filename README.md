@@ -12,32 +12,6 @@ Script en Node.js que simula una conversación entre **Groq (LLaMA)** como usuar
 
 ---
 
-## Instalación
-
-1. Clona o descarga este repositorio:
-   ```bash
-   git clone <url-del-repo>
-   cd prueba-qa-chatbot
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-3. Crea el archivo `.env` basado en el ejemplo:
-   ```bash
-   cp .env.example .env
-   ```
-
-4. Abre el archivo `.env` y llena tus credenciales:
-   ```
-   GROQ_API_KEY=tu_api_key_de_groq
-   HF_TOKEN=hf_tu_token_de_huggingface
-   ```
-
----
-
 ## Ejecución
 
 ```bash
@@ -45,23 +19,6 @@ node index.js
 ```
 
 El script ejecutará los 4 escenarios automáticamente y guardará los resultados en la carpeta `/output`.
-
----
-
-## Estructura del proyecto
-
-```
-prueba-qa-chatbot/
-├── index.js          ← script principal
-├── README.md         ← este archivo
-├── .env.example      ← variables de entorno sin valores reales
-├── .env              ← tus credenciales reales (NO subir a GitHub)
-└── output/
-    ├── escenario-1.json
-    ├── escenario-2.json
-    ├── escenario-3.json
-    └── escenario-4.json
-```
 
 ---
 
