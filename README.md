@@ -1,4 +1,4 @@
-# Prueba Técnica — QA Engineer: Integración y análisis de chatbot
+# Prueba Técnica — QA
 
 Script en Node.js que simula una conversación entre **Groq (LLaMA)** como usuario simulado y **DialoGPT** como chatbot, ejecutando 4 escenarios con 4 turnos cada uno y generando un análisis de calidad.
 
