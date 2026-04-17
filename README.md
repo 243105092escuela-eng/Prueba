@@ -8,7 +8,6 @@ Script en Node.js que simula una conversación entre **Groq (LLaMA)** como usuar
 
 - Node.js v18 o superior
 - Cuenta en [Groq](https://console.groq.com) con API Key
-- Cuenta en [HuggingFace](https://huggingface.co) con Access Token
 
 ---
 
@@ -56,5 +55,4 @@ Cada escenario genera un archivo con esta estructura:
 ## Notas importantes
 
 - DialoGPT puede tardar hasta 30 segundos en responder la primera vez (cold start). El script reintenta automáticamente.
-- No subas el archivo `.env` a GitHub — agrega `.env` a tu `.gitignore`.
-- El modelo de Groq usado es `llama-3.1-8b-instant`.
+- El modelo de Groq usado es `llama-3.1-8b-instant` y `llama-3.3-70b-versatile`.
